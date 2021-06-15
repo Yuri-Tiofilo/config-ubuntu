@@ -445,6 +445,10 @@ echo '[33/33] Installing Discord 💬'
 sudo snap install discord --classic
 clear
 
+echo '[34/34] Installing Chormium'
+sudo apt-get install chromium-browser
+clear
+
 echo 'Commiting changes 🎈'
 source ~/.zshrc
 sudo dpkg --configure -a 
